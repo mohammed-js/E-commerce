@@ -16,7 +16,16 @@ function Details() {
 
   return (
     <>
-      <Navbar></Navbar>
+      <div
+        style={{
+          width: "100",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Navbar></Navbar>
+      </div>
       <div className="details-top-container">
         {item ? (
           <div className="details-mid-container">
