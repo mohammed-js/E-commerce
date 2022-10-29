@@ -889,7 +889,7 @@ input {
 
   /* dropdown menu */
   .dropdown-container {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -905,7 +905,7 @@ input {
     border-width: 0.1px;
   }
   .dropdown-container:hover {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
