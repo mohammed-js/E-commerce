@@ -896,9 +896,9 @@ input {
     width: 34%;
     background-color: #dddee2;
     border-radius: 4%;
-    padding: 8px;
+    padding: 10px;
     position: absolute;
-    left: 119px;
+    left: 117px;
     top: 64px;
     border-style: solid;
     border-color: #9b9b9b;
@@ -912,9 +912,9 @@ input {
     width: 34%;
     background-color: #dddee2;
     border-radius: 4%;
-    padding: 8px;
+    padding: 10px;
     position: absolute;
-    left: 119px;
+    left: 117px;
     top: 64px;
   }
   .dropdown-item {
