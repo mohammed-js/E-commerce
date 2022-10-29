@@ -3,6 +3,8 @@ import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import { useParams } from "react-router-dom";
 import Navbar from "../sections/Navbar";
+import DropdownMenu from "../components/DropdownMenu";
+import Footer from "../sections/Footer";
 function Details() {
   const [item, setItem] = useState();
   useEffect(() => {
@@ -16,15 +18,9 @@ function Details() {
 
   return (
     <>
-      <div
-        style={{
-          width: "100",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div className="details-nav">
         <Navbar></Navbar>
+        <DropdownMenu></DropdownMenu>
       </div>
       <div className="details-top-container">
         {item ? (
@@ -76,6 +72,9 @@ function Details() {
             <CircularProgress size={200} />
           </Box>
         )}
+      </div>
+      <div className="details-foot">
+        <Footer></Footer>
       </div>
     </>
   );
